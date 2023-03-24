@@ -11,7 +11,8 @@ import SwiftUI
 struct Food_AdvisorApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            HomeScreen()
         }
     }
 }
