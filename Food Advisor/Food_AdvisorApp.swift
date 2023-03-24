@@ -12,7 +12,8 @@ struct Food_AdvisorApp: App {
     var body: some Scene {
         WindowGroup {
             //ContentView()
-            HomeScreen()
+            //HomeScreen()
+            SignInScreen()
         }
     }
 }
