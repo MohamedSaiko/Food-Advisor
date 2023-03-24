@@ -20,5 +20,10 @@ let girls = "girls"
 let iceCream = "iceCream"
 let oreo = "oreo"
 
+// MARK: Networking Constants
+
+let allPostsUrl = "https://dummyjson.com/posts"
+let authenticationUrl = "https://dummyjson.com/auth/login"
+
 
 
