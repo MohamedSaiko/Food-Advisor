@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4127E72C29CDCEEB00F02344 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4127E72B29CDCEEB00F02344 /* SignInViewModel.swift */; };
 		4127E72F29CDCF3000F02344 /* SignInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4127E72E29CDCF3000F02344 /* SignInScreen.swift */; };
+		4127E73229CE215F00F02344 /* PostsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4127E73129CE215F00F02344 /* PostsData.swift */; };
+		4127E73429CE218C00F02344 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4127E73329CE218C00F02344 /* User.swift */; };
 		41DE51FC29CD5CD9008E8ECB /* Food_AdvisorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DE51FB29CD5CD9008E8ECB /* Food_AdvisorApp.swift */; };
 		41DE51FE29CD5CD9008E8ECB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DE51FD29CD5CD9008E8ECB /* ContentView.swift */; };
 		41DE520029CD5CDB008E8ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41DE51FF29CD5CDB008E8ECB /* Assets.xcassets */; };
@@ -24,6 +26,8 @@
 /* Begin PBXFileReference section */
 		4127E72B29CDCEEB00F02344 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
 		4127E72E29CDCF3000F02344 /* SignInScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreen.swift; sourceTree = "<group>"; };
+		4127E73129CE215F00F02344 /* PostsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsData.swift; sourceTree = "<group>"; };
+		4127E73329CE218C00F02344 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		41DE51F829CD5CD9008E8ECB /* Food Advisor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Advisor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41DE51FB29CD5CD9008E8ECB /* Food_AdvisorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_AdvisorApp.swift; sourceTree = "<group>"; };
 		41DE51FD29CD5CD9008E8ECB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +69,15 @@
 			path = SignInScreen;
 			sourceTree = "<group>";
 		};
+		4127E73029CE213A00F02344 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4127E73129CE215F00F02344 /* PostsData.swift */,
+				4127E73329CE218C00F02344 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		41DE51EF29CD5CD9008E8ECB = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				41DE521029CD6188008E8ECB /* Constants.swift */,
+				4127E73029CE213A00F02344 /* Models */,
 				4127E72A29CDCEB400F02344 /* SignIn */,
 				41DE521629CD8608008E8ECB /* Home */,
 				41DE51FB29CD5CD9008E8ECB /* Food_AdvisorApp.swift */,
@@ -199,7 +213,9 @@
 				41DE520F29CD6067008E8ECB /* Header.swift in Sources */,
 				41DE521829CD8627008E8ECB /* HomeViewModel.swift in Sources */,
 				41DE521329CD6B73008E8ECB /* PostHeader.swift in Sources */,
+				4127E73229CE215F00F02344 /* PostsData.swift in Sources */,
 				4127E72C29CDCEEB00F02344 /* SignInViewModel.swift in Sources */,
+				4127E73429CE218C00F02344 /* User.swift in Sources */,
 				41DE51FE29CD5CD9008E8ECB /* ContentView.swift in Sources */,
 				41DE51FC29CD5CD9008E8ECB /* Food_AdvisorApp.swift in Sources */,
 				41DE520D29CD604B008E8ECB /* HomeScreen.swift in Sources */,

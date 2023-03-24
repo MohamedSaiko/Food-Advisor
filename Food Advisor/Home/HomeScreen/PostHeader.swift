@@ -12,7 +12,7 @@ struct PostHeader: View {
         HStack {
             HStack(spacing: 4.0) {
                 
-                Image("\(ahmed)")
+                Image(ahmed)
                     .resizable()
                     .frame(width: 40, height: 40)
                 
@@ -30,7 +30,7 @@ struct PostHeader: View {
             
             Spacer()
             
-            Image("\(more)")
+            Image(more)
                 .resizable()
                 .frame(width: 16, height: 4)
                 .padding(.horizontal, 4)
