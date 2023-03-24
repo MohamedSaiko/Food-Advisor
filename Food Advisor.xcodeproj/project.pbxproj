@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4127E72C29CDCEEB00F02344 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4127E72B29CDCEEB00F02344 /* SignInViewModel.swift */; };
+		4127E72F29CDCF3000F02344 /* SignInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4127E72E29CDCF3000F02344 /* SignInScreen.swift */; };
 		41DE51FC29CD5CD9008E8ECB /* Food_AdvisorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DE51FB29CD5CD9008E8ECB /* Food_AdvisorApp.swift */; };
 		41DE51FE29CD5CD9008E8ECB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DE51FD29CD5CD9008E8ECB /* ContentView.swift */; };
 		41DE520029CD5CDB008E8ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41DE51FF29CD5CDB008E8ECB /* Assets.xcassets */; };
@@ -16,9 +18,12 @@
 		41DE521129CD6188008E8ECB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DE521029CD6188008E8ECB /* Constants.swift */; };
 		41DE521329CD6B73008E8ECB /* PostHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DE521229CD6B73008E8ECB /* PostHeader.swift */; };
 		41DE521529CD6D75008E8ECB /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DE521429CD6D75008E8ECB /* PostView.swift */; };
+		41DE521829CD8627008E8ECB /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DE521729CD8627008E8ECB /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4127E72B29CDCEEB00F02344 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		4127E72E29CDCF3000F02344 /* SignInScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreen.swift; sourceTree = "<group>"; };
 		41DE51F829CD5CD9008E8ECB /* Food Advisor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Advisor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41DE51FB29CD5CD9008E8ECB /* Food_AdvisorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_AdvisorApp.swift; sourceTree = "<group>"; };
 		41DE51FD29CD5CD9008E8ECB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -29,6 +34,7 @@
 		41DE521029CD6188008E8ECB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		41DE521229CD6B73008E8ECB /* PostHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeader.swift; sourceTree = "<group>"; };
 		41DE521429CD6D75008E8ECB /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		41DE521729CD8627008E8ECB /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4127E72A29CDCEB400F02344 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				4127E72B29CDCEEB00F02344 /* SignInViewModel.swift */,
+				4127E72D29CDCEFF00F02344 /* SignInScreen */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		4127E72D29CDCEFF00F02344 /* SignInScreen */ = {
+			isa = PBXGroup;
+			children = (
+				4127E72E29CDCF3000F02344 /* SignInScreen.swift */,
+			);
+			path = SignInScreen;
+			sourceTree = "<group>";
+		};
 		41DE51EF29CD5CD9008E8ECB = {
 			isa = PBXGroup;
 			children = (
@@ -62,7 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				41DE521029CD6188008E8ECB /* Constants.swift */,
-				41DE520929CD5FD0008E8ECB /* HomeScreen */,
+				4127E72A29CDCEB400F02344 /* SignIn */,
+				41DE521629CD8608008E8ECB /* Home */,
 				41DE51FB29CD5CD9008E8ECB /* Food_AdvisorApp.swift */,
 				41DE51FD29CD5CD9008E8ECB /* ContentView.swift */,
 				41DE51FF29CD5CDB008E8ECB /* Assets.xcassets */,
@@ -88,6 +112,15 @@
 				41DE521429CD6D75008E8ECB /* PostView.swift */,
 			);
 			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		41DE521629CD8608008E8ECB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				41DE521729CD8627008E8ECB /* HomeViewModel.swift */,
+				41DE520929CD5FD0008E8ECB /* HomeScreen */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,9 +194,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				41DE521529CD6D75008E8ECB /* PostView.swift in Sources */,
+				4127E72F29CDCF3000F02344 /* SignInScreen.swift in Sources */,
 				41DE521129CD6188008E8ECB /* Constants.swift in Sources */,
 				41DE520F29CD6067008E8ECB /* Header.swift in Sources */,
+				41DE521829CD8627008E8ECB /* HomeViewModel.swift in Sources */,
 				41DE521329CD6B73008E8ECB /* PostHeader.swift in Sources */,
+				4127E72C29CDCEEB00F02344 /* SignInViewModel.swift in Sources */,
 				41DE51FE29CD5CD9008E8ECB /* ContentView.swift in Sources */,
 				41DE51FC29CD5CD9008E8ECB /* Food_AdvisorApp.swift in Sources */,
 				41DE520D29CD604B008E8ECB /* HomeScreen.swift in Sources */,
