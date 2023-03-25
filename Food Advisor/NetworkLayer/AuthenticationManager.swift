@@ -9,7 +9,7 @@ import Foundation
 
 struct AuthenticationManager {
     
-    func authenticate(with userName: String, password: String) {
+    func authenticate(userName: String, password: String) {
         
         let urlString = authenticationUrl
         let url = URL(string: urlString)!

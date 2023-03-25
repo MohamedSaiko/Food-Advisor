@@ -33,7 +33,7 @@ final class HomeViewModel: ObservableObject {
                 }
                 DispatchQueue.main.async {
                     self.posts = postsData.posts
-                            }
+                }
             }.store(in: &postssubscribers)
     }
 }
