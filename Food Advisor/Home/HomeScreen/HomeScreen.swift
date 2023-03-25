@@ -9,23 +9,24 @@ import SwiftUI
 
 struct HomeScreen: View {
     
-    @State var data = ["nnnnnnnnn", "mmmmmmmmmmmm", "fffffffff", "fff,mmmmmmgkl", "hhhhhhhhhhhhhhkkkkkkkkkk", "mahmoud"]
+    @ObservedObject var homeViewModel = HomeViewModel()
+    
     var body: some View {
         VStack {
+            
             Header()
             
-            ScrollView(.vertical, showsIndicators: false) {
-                VStack(spacing:12) {
-                    
-                    ForEach(data, id: \.self) { txt in
-                        PostView(postBody:txt)
-                    }
-                }
+            List(homeViewModel.posts) { post in
+                PostView(postBody: post.body)
             }
-            
-            Spacer()
+            .listStyle(.plain)
+            .onAppear {
+                
+                homeViewModel.fetchPosts()
+            }
         }
         
+        Spacer()
     }
 }
 

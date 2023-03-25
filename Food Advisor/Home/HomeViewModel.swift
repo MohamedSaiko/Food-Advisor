@@ -7,6 +7,7 @@
 
 import Foundation
 import Combine
+import SwiftUI
 
 final class HomeViewModel: ObservableObject {
     
@@ -33,7 +34,7 @@ final class HomeViewModel: ObservableObject {
                 }
                 DispatchQueue.main.async {
                     self.posts = postsData.posts
-                            }
+                }
             }.store(in: &postssubscribers)
     }
 }
