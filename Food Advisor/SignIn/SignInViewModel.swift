@@ -11,8 +11,8 @@ final class SignInViewModel: ObservableObject{
     
     private let authenticationManager = AuthenticationManager()
     
-    func authenticateUser() {
-        authenticationManager.authenticate(with: "kminchelle", password: "0lelplR")
+    func authenticateUser(userName:String, password:String) {
+        authenticationManager.authenticate(userName: userName, password: password)
     }
 
 }

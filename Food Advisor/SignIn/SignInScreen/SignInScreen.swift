@@ -9,11 +9,12 @@ import SwiftUI
 
 struct SignInScreen: View {
     
+    @ObservedObject var signInViewModel = SignInViewModel()
+    
     @State var userName = ""
     @State var password = ""
     
     var body: some View {
-        
         VStack(spacing: 24.0) {
             
             Image(girls)
@@ -43,12 +44,13 @@ struct SignInScreen: View {
                         .font(.subheadline)
                         .fontWeight(.bold)
                     
-                    TextField("Enter your Password", text: self.$password)
+                    SecureField("Enter your Password", text: self.$password)
                         .textFieldStyle(.roundedBorder)
                 }
                 
                 Button("Sign in"){
                     
+                    signInViewModel.authenticateUser(userName: userName, password: password)
                 }
                 .padding()
                 .frame(maxWidth: .infinity)
