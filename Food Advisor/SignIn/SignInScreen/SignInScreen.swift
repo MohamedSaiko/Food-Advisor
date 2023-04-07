@@ -11,8 +11,8 @@ struct SignInScreen: View {
     
     @ObservedObject var signInViewModel = SignInViewModel()
     
-    @State var userName = ""
-    @State var password = ""
+    @State var userName = "kminchelle"
+    @State var password = "0lelplR"
     
     var body: some View {
         VStack(spacing: 24.0) {
@@ -47,7 +47,6 @@ struct SignInScreen: View {
                     SecureField("Enter your Password", text: self.$password)
                         .textFieldStyle(.roundedBorder)
                 }
-                
                 Button("Sign in"){
                     
                     signInViewModel.authenticateUser(userName: userName, password: password)
