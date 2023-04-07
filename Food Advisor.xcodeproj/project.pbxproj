@@ -13,6 +13,7 @@
 		4127E73429CE218C00F02344 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4127E73329CE218C00F02344 /* User.swift */; };
 		4127E73729CE236100F02344 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4127E73629CE236100F02344 /* NetworkManager.swift */; };
 		4127E73929CE23EC00F02344 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4127E73829CE23EC00F02344 /* AuthenticationManager.swift */; };
+		41D1B43129E0066F007FE9FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D1B43029E0066F007FE9FC /* Main.storyboard */; };
 		41DE51FC29CD5CD9008E8ECB /* Food_AdvisorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DE51FB29CD5CD9008E8ECB /* Food_AdvisorApp.swift */; };
 		41DE51FE29CD5CD9008E8ECB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DE51FD29CD5CD9008E8ECB /* ContentView.swift */; };
 		41DE520029CD5CDB008E8ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41DE51FF29CD5CDB008E8ECB /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 		4127E73329CE218C00F02344 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		4127E73629CE236100F02344 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		4127E73829CE23EC00F02344 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		41D1B43029E0066F007FE9FC /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		41DE51F829CD5CD9008E8ECB /* Food Advisor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Advisor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41DE51FB29CD5CD9008E8ECB /* Food_AdvisorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_AdvisorApp.swift; sourceTree = "<group>"; };
 		41DE51FD29CD5CD9008E8ECB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				41DE521629CD8608008E8ECB /* Home */,
 				41DE51FB29CD5CD9008E8ECB /* Food_AdvisorApp.swift */,
 				41DE51FD29CD5CD9008E8ECB /* ContentView.swift */,
+				41D1B43029E0066F007FE9FC /* Main.storyboard */,
 				41DE51FF29CD5CDB008E8ECB /* Assets.xcassets */,
 				41DE520129CD5CDB008E8ECB /* Preview Content */,
 			);
@@ -209,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41D1B43129E0066F007FE9FC /* Main.storyboard in Resources */,
 				41DE520329CD5CDB008E8ECB /* Preview Assets.xcassets in Resources */,
 				41DE520029CD5CDB008E8ECB /* Assets.xcassets in Resources */,
 			);
