@@ -15,6 +15,7 @@
 		4127E73929CE23EC00F02344 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4127E73829CE23EC00F02344 /* AuthenticationManager.swift */; };
 		41D1B43129E0066F007FE9FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D1B43029E0066F007FE9FC /* Main.storyboard */; };
 		41D1B43329E00799007FE9FC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D1B43229E00799007FE9FC /* HomeViewController.swift */; };
+		41D1B43529E16527007FE9FC /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D1B43429E16527007FE9FC /* SignInViewController.swift */; };
 		41DE51FC29CD5CD9008E8ECB /* Food_AdvisorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DE51FB29CD5CD9008E8ECB /* Food_AdvisorApp.swift */; };
 		41DE51FE29CD5CD9008E8ECB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DE51FD29CD5CD9008E8ECB /* ContentView.swift */; };
 		41DE520029CD5CDB008E8ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41DE51FF29CD5CDB008E8ECB /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 		4127E73829CE23EC00F02344 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 		41D1B43029E0066F007FE9FC /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		41D1B43229E00799007FE9FC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		41D1B43429E16527007FE9FC /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		41DE51F829CD5CD9008E8ECB /* Food Advisor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Advisor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41DE51FB29CD5CD9008E8ECB /* Food_AdvisorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_AdvisorApp.swift; sourceTree = "<group>"; };
 		41DE51FD29CD5CD9008E8ECB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				4127E72B29CDCEEB00F02344 /* SignInViewModel.swift */,
+				41D1B43429E16527007FE9FC /* SignInViewController.swift */,
 				4127E72D29CDCEFF00F02344 /* SignInScreen */,
 			);
 			path = SignIn;
@@ -240,6 +243,7 @@
 				4127E72C29CDCEEB00F02344 /* SignInViewModel.swift in Sources */,
 				4127E73929CE23EC00F02344 /* AuthenticationManager.swift in Sources */,
 				4127E73429CE218C00F02344 /* User.swift in Sources */,
+				41D1B43529E16527007FE9FC /* SignInViewController.swift in Sources */,
 				41DE51FE29CD5CD9008E8ECB /* ContentView.swift in Sources */,
 				41DE51FC29CD5CD9008E8ECB /* Food_AdvisorApp.swift in Sources */,
 				41DE520D29CD604B008E8ECB /* HomeScreen.swift in Sources */,
