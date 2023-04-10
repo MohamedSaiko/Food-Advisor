@@ -6,14 +6,27 @@
 //
 
 import SwiftUI
+import UIKit
 
 @main
 struct Food_AdvisorApp: App {
     var body: some Scene {
         WindowGroup {
-            //ContentView()
-            //HomeScreen()
-            SignInScreen()
+            StoryboardViewer()
         }
+    }
+}
+
+struct StoryboardViewer: UIViewControllerRepresentable {
+    
+    func makeUIViewController(context: Context) -> some UIViewController {
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        let controller = storyboard.instantiateViewController(withIdentifier: "Home")
+        
+        return controller
+    }
+    
+    func updateUIViewController(_ uiViewController: UIViewControllerType, context: UIViewControllerRepresentableContext<StoryboardViewer>) {
     }
 }
